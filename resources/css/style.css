@@ -16,3 +16,7 @@ body {
 	min-height: 96vh; /* Expands past 100% naturally if text/content pushes it */
   	height: auto; 
 }
+
+h1 {
+	font-family: "Space Grotesk", sans-serif;
+}
