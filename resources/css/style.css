@@ -1,13 +1,18 @@
+:root {
+	--bg-charcoal: #1A1A1A;
+	--pale-gray: #dfe6e9;
+}
+
 html {
   height: 100%;
 }
 
 body {
-	background-color: #1e272e;
-	border: 1px solid #dfe6e9; 
-	box-shadow: 0 0 0 10px #1e272e;
-	color: #dfe6e9;
-	margin: 10px;
+	background-color: var(--bg-charcoal);
+	border: 1px solid var(--pale-gray); 
+	box-shadow: 0 0 0 20px var(--bg-charcoal);
+	color: var(--pale-gray);
+	margin: 20px;
 	min-height: 100%; /* Expands past 100% naturally if text/content pushes it */
   	height: auto; 
 }
