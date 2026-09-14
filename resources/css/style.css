@@ -5,9 +5,9 @@ html {
 body {
 	background-color: #1e272e;
 	border: 1px solid #dfe6e9; 
-	box-shadow: 0 0 0 10px red;
+	box-shadow: 0 0 0 10px #1e272e;
 	color: #dfe6e9;
-	margin: 0;
+	margin: 10px;
 	min-height: 100%; /* Expands past 100% naturally if text/content pushes it */
   	height: auto; 
 }
