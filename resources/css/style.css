@@ -13,6 +13,7 @@ body {
 	box-shadow: 0 0 0 20px var(--bg-charcoal);
 	color: var(--pale-gray);
 	margin: 20px;
+	margin-bottom: 40px;
 	min-height: 100vh; /* Expands past 100% naturally if text/content pushes it */
   	height: auto; 
 }
