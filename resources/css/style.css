@@ -27,4 +27,5 @@ h3 {
 p {
 	font-family: "Helvetica", sans-serif;
 	font-weight: bold;
+	text-transform: uppercase;
 }
