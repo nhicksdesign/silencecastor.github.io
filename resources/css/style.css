@@ -43,12 +43,12 @@ nav a {
 
 nav ul li {
 	border-left: 1px white solid;
-	float: right;
 	width: 150px;
 }
 
-nav ul a {
+nav ul li a {
 	font-size:12px;
+	float: right;
 }
 
 #a {
