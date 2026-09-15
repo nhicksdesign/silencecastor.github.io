@@ -33,6 +33,10 @@ nav a {
 	text-transform: uppercase;
 }
 
+nav ul a {
+	font-size:12px;
+}
+
 #a {
 	width:50px;
 }
