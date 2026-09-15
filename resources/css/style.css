@@ -20,6 +20,12 @@ body {
 nav {
 	background-color: var(--bg-charcoal);
 	border-bottom: 1px solid var(--pale-gray); 
+	padding: 0 15px;
+}
+
+nav .brand-logo {
+	height: 63px;
+	padding: 6px;
 }
 
 #a {
