@@ -20,7 +20,7 @@ body {
 nav {
 	background-color: var(--bg-charcoal);
 	border-bottom: 1px solid var(--pale-gray); 
-	padding: 0 15px;
+	padding: 0 20px;
 }
 
 nav .brand-logo {
@@ -42,6 +42,7 @@ nav a {
 
 nav ul li {
 	border-left: 1px white solid;
+	float: right;
 }
 
 nav ul a {
