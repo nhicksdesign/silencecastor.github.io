@@ -24,8 +24,7 @@ nav {
 }
 
 nav .brand-logo {
-	height: 63px;
-	padding: 6px;
+	display: inline-flex;
 }
 
 nav a {
