@@ -17,6 +17,11 @@ body {
   	height: auto; 
 }
 
+nav {
+	background-color: var(--bg-charcoal);
+	border-bottom: 1px solid var(--pale-gray); 
+}
+
 h1,
 h2,
 h3 {
