@@ -28,6 +28,12 @@ nav .brand-logo {
 	padding: 6px;
 }
 
+nav a {
+	color: var(--pale-gray);
+	font-family: "Space Grotesk", sans-serif;
+	text-transform: uppercase;
+}
+
 #a {
 	width:50px;
 }
