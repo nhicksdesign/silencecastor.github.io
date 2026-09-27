@@ -1,6 +1,7 @@
 function setup() {
   setAttributes('antialias', false);
   createCanvas(windowWidth, windowHeight, WEBGL);
+  canvas.parent('preloader-container')
 }
 
 function draw() {
