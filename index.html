@@ -31,7 +31,7 @@
     <!--<div id="container" style="position: absolute; width: 100%; height: 100%;"></div> -->
     <div id="preloader">
         <div class="preloader-wrapper big active">
-          <div class="spinner-layer spinner-blue">
+          <div class="spinner-layer spinner-white">
             <div class="circle-clipper left">
               <div class="circle"></div>
             </div><div class="gap-patch">
@@ -1158,7 +1158,7 @@
               const preloader = document.getElementById('preloader');
   
               // Fade out effect
-              gsap.to(preloader, 1, {opacity:0, ease:Sine.easeinOut, delay:3}
+              gsap.to(preloader, 1, {opacity:0, ease:Sine.easeinOut, delay:3});
               preloader.style.visibility = 'hidden';
               
               // Optional: Remove it from the DOM completely after the fade transition
