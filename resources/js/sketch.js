@@ -22,7 +22,8 @@ const sketchOne = p => {
         }
         if (k < 180) k += 1; else k = 0;
     };
-    new p5(sketchOne, "preloader-container");
-};
-// Instantiate the sketch and bind it to its HTML div element
 
+};
+
+// Instantiate the sketch and bind it to its HTML div element
+new p5(sketchOne, "preloader-container");
