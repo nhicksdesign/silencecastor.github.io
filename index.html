@@ -1158,7 +1158,7 @@
               const preloader = document.getElementById('preloader');
   
               // Fade out effect
-              preloader.style.opacity = '0';
+              gsap.to(preloader, 1, {opacity:0, ease:Sine.easeinOut, delay:3}
               preloader.style.visibility = 'hidden';
               
               // Optional: Remove it from the DOM completely after the fade transition
