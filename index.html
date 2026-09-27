@@ -1155,6 +1155,16 @@
         // Initialize Materialize Components
         document.addEventListener('DOMContentLoaded', function() {
             M.AutoInit(); // Safely sets up all basic animations, navbars, and interactive elements
+              const preloader = document.getElementById('preloader');
+  
+              // Fade out effect
+              preloader.style.opacity = '0';
+              preloader.style.visibility = 'hidden';
+              
+              // Optional: Remove it from the DOM completely after the fade transition
+              setTimeout(() => {
+                preloader.remove();
+              }, 500); 
         });
     </script>
 </body>
