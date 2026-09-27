@@ -6,19 +6,19 @@ const sketchOne = p => {
         p.createCanvas(400, 400, "preloader-container");
     };
     p.draw = () => {
-        background(0, 70);
-        translate(width / 2, height / 2);
-        rotate(PI / 2);
-        noFill();
-        stroke(100);
-        ellipse(0, 0, 2 * r, 2 * r);
+        p.background(0, 70);
+        p.translate(width / 2, height / 2);
+        p.rotate(PI / 2);
+        p.noFill();
+        p.stroke(100);
+        p.ellipse(0, 0, 2 * r, 2 * r);
         for (let i = 0; i < 5; i++) {
-            let ang = radians(180 * cos(radians(k + i * 10)));
-            let x = r * cos(ang);
-            let y = r * sin(ang);
-            noStroke();
-            fill(255);
-            if (k + i * 10 < 182) ellipse(x, y, 5, 5);
+            let ang = p.radians(180 * p.cos(p.radians(k + i * 10)));
+            let x = r * p.cos(ang);
+            let y = r * p.sin(ang);
+            p.noStroke();
+            p.fill(255);
+            if (k + i * 10 < 182) p.ellipse(x, y, 5, 5);
         }
         if (k < 180) k += 1; else k = 0;
     };
