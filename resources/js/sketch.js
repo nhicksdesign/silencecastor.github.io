@@ -1,7 +1,7 @@
 let canvas;
 
 function setup() {
-    canvas = createCanvas(windowWidth, windowHeight);
+    canvas = createCanvas(windowWidth, windowHeight, WEBGL);
     canvas.parent('preloader-container');
 }
 
