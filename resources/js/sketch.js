@@ -1,5 +1,7 @@
+let canvas;
+
 function setup() {
-    createCanvas(windowWidth, windowHeight);
+    canvas = createCanvas(windowWidth, windowHeight);
     canvas.parent('preloader-container');
 }
 
