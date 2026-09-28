@@ -6,6 +6,6 @@ function setup() {
 }
 
 function draw() {
-    background('#f6f6f6');
-    circle('white');
+    background(256);
+    circle(230);
 }
